@@ -1,11 +1,46 @@
 {
-    "justificativas": [
-        {
-            "id": 1,
-            "turma": "1 serie",
-            "aluno": "jose",
-            "data": "2022-06-25",
-            "descricao": "aluno faltou sem justificativa"
-        }
-    ]
+  "justificativas": [
+    {
+      "id": 1,
+      "turma": "1 serie",
+      "aluno": "jose",
+      "data": "2022-06-25",
+      "descricao": "aluno faltou sem justificativa"
+    },
+    {
+      "turma": "1 série",
+      "aluno": "João da Silva",
+      "data": "",
+      "descricao": "faltou sem atestado",
+      "id": 2
+    },
+    {
+      "turma": "2 série",
+      "aluno": "Francisca Imaculada",
+      "data": "2022-06-08",
+      "descricao": "faltou mas a mae avisou",
+      "id": 3
+    },
+    {
+      "turma": "1 série",
+      "aluno": "João da Silva",
+      "data": "2022-06-02",
+      "descricao": "faltou sem justificativa",
+      "id": 4
+    },
+    {
+      "turma": "3 série",
+      "aluno": "Josefina Izaura",
+      "data": "2022-06-08",
+      "descricao": "asdasd",
+      "id": 5
+    },
+    {
+      "turma": "5 série",
+      "aluno": "Juarez Peixoto",
+      "data": "2022-06-04",
+      "descricao": "asdasdasdasd",
+      "id": 6
+    }
+  ]
 }

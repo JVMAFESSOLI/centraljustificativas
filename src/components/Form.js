@@ -1,6 +1,7 @@
 import './Form.css'
 
 import { useState } from "react";
+const url = 'http://localhost:3000/justificativas';
 
 const Form = ({user}) => {
 
@@ -25,16 +26,29 @@ const Form = ({user}) => {
     setDescricao(e.target.value)
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
 
-    console.log("Enviando o Formulário")
-    console.log(turma, aluno, data, descricao)
+    const justificativa = {
+      turma,
+      aluno,
+      data,
+      descricao
+    }
 
-    setTurma('')
-    setAluno('')
-    setData('')
-    setDescricao('')
+    const res = await fetch(url, {
+      method: "POST",
+      headers: {
+        'Content-Type': "application/json"
+      },
+      body: JSON.stringify(justificativa),
+    });
+
+    
+    setTurma("")
+    setAluno("")
+    setData("")
+    setDescricao("")
   }
 
   return (
