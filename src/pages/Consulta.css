@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
 .painel_consulta {
     height:700px;
     width: 90%;
@@ -9,4 +14,36 @@
     margin: auto;
     margin-top: 25px;
     background-color: rgb(194, 178, 178);
+}
+
+.card_dinamico  {
+    width:90%;
+    height:80%;
+    background-color: #fff;
+    border-radius:10px;
+    border: 1px solid #000;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+}
+
+.justificativa {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top:2%;
+    margin-left:2%;
+    width: 17%;
+    height:18%;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius:8px;
+}
+
+.justificativa h1 {
+    margin-bottom: 1px solid #000;
 }

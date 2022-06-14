@@ -24,12 +24,24 @@ const Consulta = () => {
 
   return (
     <div className="painel_consulta">
-      <h1>Lista de Justificativas</h1>
-      <ul>
-        {justs.map((j) => (
-          <li key={j.id}>{j.turma}, {j.aluno}, {j.data}, {j.descricao}</li>
-        ))}
-      </ul>
+
+        <div className="card_dinamico">
+
+        <h1 className="title">Lista de Justificativas</h1>
+
+            {justs.map((j) => (
+
+              <div className="justificativa">
+                <h1>{j.turma}</h1>
+                <p>{j.data}</p>
+                <p>{j.aluno}</p>
+                <p>{j.descricao}</p>
+              </div>
+
+            ))}
+
+        </div>
+
     </div>
   )
 }

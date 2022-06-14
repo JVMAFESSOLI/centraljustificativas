@@ -10,7 +10,7 @@
     {
       "turma": "1 série",
       "aluno": "João da Silva",
-      "data": "",
+      "data": "2022-06-25",
       "descricao": "faltou sem atestado",
       "id": 2
     },
@@ -41,6 +41,55 @@
       "data": "2022-06-04",
       "descricao": "asdasdasdasd",
       "id": 6
+    },
+    {
+      "turma": "2 série",
+      "aluno": "Sirineu Velasques",
+      "data": "2022-06-11",
+      "descricao": "ascascassc",
+      "id": 7
+    },
+    {
+      "turma": "5 série",
+      "aluno": "Juarez Peixoto",
+      "data": "2022-06-09",
+      "descricao": "ascascascascasc",
+      "id": 8
+    },
+    {
+      "turma": "3 série",
+      "aluno": "Juarez Peixoto",
+      "data": "2022-06-25",
+      "descricao": "asasgwebfb",
+      "id": 9
+    },
+    {
+      "turma": "3 série",
+      "aluno": "Sirineu Velasques",
+      "data": "2022-06-25",
+      "descricao": "adfbadfbadfb",
+      "id": 10
+    },
+    {
+      "turma": "1 série",
+      "aluno": "João da Silva",
+      "data": "2022-06-01",
+      "descricao": "faltou sem atestado",
+      "id": 11
+    },
+    {
+      "turma": "3 série",
+      "aluno": "Sirineu Velasques",
+      "data": "2022-06-02",
+      "descricao": "csdcsdc",
+      "id": 14
+    },
+    {
+      "turma": "1 série",
+      "aluno": "Francisca Imaculada",
+      "data": "2022-06-01",
+      "descricao": "asdasdasasd",
+      "id": 15
     }
   ]
 }
