@@ -1,0 +1,11 @@
+{
+    "justificativas": [
+        {
+            "id": 1,
+            "turma": "1 serie",
+            "aluno": "jose",
+            "data": "2022-06-25",
+            "descricao": "aluno faltou sem justificativa"
+        }
+    ]
+}

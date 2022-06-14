@@ -1,10 +1,9 @@
-import './Cadastro.css'
+import Form from "../components/Form";
 
 const Cadastro = () => {
   return (
-    <div className="painel_cadastro">
-      <h1>Cadastro</h1>
-    </div>
+      <Form user={{ turma: "Selecione...", aluno: "Selecione..."}}/>
+
   )
 }
 
